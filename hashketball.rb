@@ -216,7 +216,7 @@ def most_points_scored
     team[:players].each do |player|
       points_scored = player[:points]
       if points_scored > most_points
-        points_scored > most_points
+        most_points = points_scored
       end
     end
   end
