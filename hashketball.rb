@@ -212,6 +212,7 @@ end
 
 def most_points_scored
   most_points = 0
+  best_scoring_player = ''
   game_hash.each do |place, team|
     team[:players].each do |player|
       points_scored = player[:points]
