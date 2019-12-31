@@ -254,9 +254,6 @@ def player_with_longest_name
 end
 
 
-  best_scoring_player
-end
-
 
 
 
