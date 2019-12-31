@@ -235,7 +235,7 @@ def winning_team
       points_scored = player[:points]
       team_points += points_scored
     end
-    winning_team, most_points = team_name, team_points if team_points >total_points
+    winning_team, most_points = team_name, team_points if team_points > most_points
   end
   winning_team
 end
